@@ -1,17 +1,39 @@
-ul {
+body{
+  margin: 0px;
+}
+
+main{
+  margin-right: 20px;
+  margin-left: 20px;
+}
+
+
+.navbar_ab ul{
   list-style-type: none;
   display: flex;
+  background-color: rgb(112, 111, 111);
+  padding: 0px;
+  margin: 0px;
 }
 
-#navbar_ab{
-    background-color: aqua;
-    /* inline-size: 50%; */
+.navbar_ab div{
+  align-content: center;
 }
 
-li{
-  margin: 30px;
+
+.navbar_ab a{
+  color: white;
+  font-size: large;
+  display: block;
+  text-decoration: none;
+  text-align: center;
+  padding: 15px;
 }
 
-input{
-  text-align: right;
+.navbar_ab li{
+  float: left;
+}
+
+.navbar_ab a:hover{
+  background-color: rgb(66, 66, 66);
 }
