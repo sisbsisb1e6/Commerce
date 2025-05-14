@@ -5,6 +5,18 @@ body{
 main{
   margin-right: 20px;
   margin-left: 20px;
+  background-color: white;
+  padding: 0px;
+  margin: 0px;
+}
+
+h1{
+  background-color: white;
+}
+
+html{
+  background-color: white;
+  text-align: center;
 }
 
 
@@ -14,10 +26,13 @@ main{
   background-color: rgb(112, 111, 111);
   padding: 0px;
   margin: 0px;
+  overflow: hidden;
 }
 
 .navbar_ab div{
   align-content: center;
+  /* padding-left: 740px; */
+  transform: translate(730px);
 }
 
 
@@ -27,7 +42,7 @@ main{
   display: block;
   text-decoration: none;
   text-align: center;
-  padding: 15px;
+  padding: 20px;
 }
 
 .navbar_ab li{
@@ -36,4 +51,26 @@ main{
 
 .navbar_ab a:hover{
   background-color: rgb(66, 66, 66);
+}
+
+button{
+  border-radius: 8px;
+}
+
+button:hover{
+  background-color: rgb(66, 66, 66);
+}
+
+img{
+  list-style-type: none;
+}
+
+footer{
+  margin: 0px;
+  padding:  0px;
+}
+
+b{
+  margin: 10px;
+  padding: 10px;
 }
