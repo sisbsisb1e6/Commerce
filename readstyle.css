@@ -1,0 +1,60 @@
+body{
+    margin: 0px;
+}
+h1{
+    text-align: center;
+    margin: 0px;
+    background-color: gray;
+    font-size: xx-large;
+    padding: 10px;
+    color: white;
+}
+
+
+nav{
+    padding: 0px;
+    margin: 0px;
+}
+
+p{
+    font-size: large;
+}
+
+main{
+    padding: 20px;
+    margin: 20px;
+    text-align: center;
+    width: 70%;
+    margin-left: 200px;
+}
+
+main b{
+    font-size: large;
+    margin-right: 50px;
+}
+
+figure{
+    text-align: right;
+    display: block;
+}
+
+li{
+    text-align: left;
+    padding-right: inline;
+    font-size: larger;
+}
+
+h2{
+    text-align: left;
+}
+
+.listt{
+    display: flex;
+    justify-content: space-evenly;
+    margin: auto;
+    padding: 10px;
+}
+
+img{
+    margin-right: 50px;
+}
